@@ -1,0 +1,18 @@
+body {
+    background-color: #495250;
+}
+
+h6 {
+    text-align: center;
+}
+
+.card {
+    background-color: #181818;
+    color: #FFFFFF;
+    width: 30rem;
+    margin-top: 150px;
+
+    /*Differs in Monitor Resolution (317px for MY PC to center)*/
+    margin-right: 407px;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <head>
+        <title>MY PROFILE</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+    
+        body{
+          
+            background-image: url(bckimage.jpg.jpg);
+        }
+    
+        
+    </style>
+<center>
+<body style = "font-family: Arial, Helvetica, sans-serif;">
+    <button onclick="history.back()">Back</button>
+
+<h3 style text-align: center;>MY PROFILE</h3>
+<img style = "border:10px solid black" src = "img.jpg.jpg" height= "300" width="300">
+    <table border = 2 style = "width: 50%; font-size: 15px; margin-top: 40px;">
+    <tr>
+        <th style = text-align:right>NAME : </th>
+        <td>ANNA MAE DELA PINA</td></tr>
+    <tr>
+        <th style = text-align:right>AGE : </th>
+        <td>20</td></tr>
+    <tr>
+        <th style = text-align:right>STATUS :</th>
+        <td>SINGLE</td></tr>
+    <tr>
+        <th style = text-align:right>BIRTHDATE : </th>
+        <td>July 31, 2001</td></tr>
+    <tr>
+        <th style = text-align:right>HOME ADDRESS : </th>
+        <td>DIAMOND ST TISA, Cebu City</td></tr>
+    <tr>
+        <th style = text-align:right>MOBILE NUMBER : </th>
+        <td>09319199653</td></tr>
+    <tr>
+        <th style = text-align:right>EMAIL ADDRESS : </th>
+        <td>annamaedelapina86@gmail.com</td></tr>
+    <tr>
+        <th style = text-align:right>SECONDARY EDUCATION : </th>
+        <td>TISA NATIONAL HIGH SCHOOL</td></tr>
+    <tr>
+        <th style = text-align:right>TERTIARY EDUCATION : </th>
+        <td>ASIAN COLLEGE OF TECHNOLOGY</td></tr>
+    <tr>
+        <th style = text-align:right>PROGRAM : </th>
+        <td>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</td></tr>
+        
+    </table>
+    <form>
+        <fieldset>
+            <form>
+                <fieldset>
+                    <label for="first_n">Full name<span class="mandatory">*</span>: </label>
+                    <input type="text" id="first_n" name="first_n", placeholder="FirstName LastName">
+                    <label for="email">Email Address<span class="mandatory">*</span>: </label>
+                    <input type="email" id="email" name="email", placeholder="EMAIL_ADDRESS">
+                    <label for="choose" id="choose">Select Tour Package<span class="mandatory">*</span>: 
+                        <div class="choosediv">
+                            <select id="choose" name="choose">
+                                <option value="">Goa</option>
+                            </select>
+                        </div>
+                    </label>
+        
+                    <label for="arr_date">Arrival Date<span class="mandatory">*</span>: </label>
+        
+                    <div id="arr_date">
+                        <input type="arr_date" id="arr_date" name="arr_date", placeholder="mm/dd/yyyy">
+                    </div>
+                    
+                    <label for="person_cnt">Number of Persons<span class="mandatory">*</span>: </label>
+                    <input type="person_cnt" id="person_cnt" name="person_cnt", placeholder="UNKOWN_TYPE">
+                    <label for="choose_check"> What would you want to avail?<span class="mandatory">* </span></label>
+                    <p>Boarding<input type="checkbox" id="choose_check" name="choose_check"></p>
+                    <p>Fooding<input type="checkbox" id="choose_check" name="choose_check"></p>
+                    <p>Sight seeing<input type="checkbox" id="choose_check" name="choose_check"></p>
+                    <label for="disc_coup_code">Discount Coupon code: </label>
+                    <input type="disc_coup_code" id="disc_coup_code" name="disc_coup_code", placeholder="UNKOWN_TYPE">
+                    <label for="terms-and-conditions">Terms and Conditions<span class="mandatory">*</span></label>
+                    <div class="terms-cond">
+                        <label><input id="agree" type="radio" name="agree-disagree" value="agree" checked> I agree</label>
+                        <label><input id="disagree" type="radio" name="agree-disagree" value="disagree"> I disagree</label>
+                    </div>
+                    <button type="submit" required>Complete reservation</button>
+                </fieldset>
+            </form>
+        </body>
+        </html>

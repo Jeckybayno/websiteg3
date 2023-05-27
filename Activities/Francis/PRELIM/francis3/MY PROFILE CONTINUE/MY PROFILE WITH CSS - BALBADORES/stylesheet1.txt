@@ -1,0 +1,43 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #b3aaaa;
+}
+table, th, td
+{
+	border-style: solid;
+	width: 50%;
+	font-size: 15px;
+	margin-top: 40px;
+	text-align: right;
+	color: #FFFFFF;
+}
+img
+{
+	border-style: solid;
+	height: 300px;
+	width: 300px;
+}
+h3
+{
+	color: #FFFFFF;
+	
+}
+form
+{
+	border: 2px solid black;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 40px; 
+    padding-left: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    background-color: #c3e3c6;
+    text-align: center;
+}
+h2
+{
+    color: #58cc63;
+    
+}
